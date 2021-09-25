@@ -10,6 +10,14 @@
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://guides.github.com/features/mastering-markdown/)
 -->
+### 🧙最近重要事务🧙
+
+1. 证书到期日期10.20号左右
+2. 证书需要和CDN一起切换
+3. 对接优先级（支付和订阅服务）
+4. GPU包
+5. sealbuild重构
+6. upgrade重构
 
 #### 组织背景🌈
 
@@ -36,6 +44,6 @@
 	1. 用户管理（修改用户角色（普通、管理员、文档管理员））
 	2. 管理员管理产品、产品类型、产品版本
 	3. 支付模块（用户可自行查看支付状态并同步，管理员查看所有的订单并同步说有的订单状态、可删除无用订单） 支付的稳定性优先开发
-	4. VIP套餐模块（VIP创建、绑定产品，管理员功能）
+	4. 订阅服务模块（服务创建、绑定产品，管理员功能）
   > 目前有个隐患： 用户下完订单之后修改VIP时间会影响订单状态，这个需要调整数据库，看进度，可延后处理。
 4. 等后期需要修改登录接口要支持其他登录方式  
