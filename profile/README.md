@@ -12,12 +12,9 @@
 -->
 ### 🧙最近重要事务🧙
 
-1. 证书到期日期10.20号左右   Done
-2. 证书需要和CDN一起切换   Done
-3. 对接优先级（支付和订阅服务）
-4. GPU包
-5. sealbuild重构
-6. upgrade重构
+1. app模块 （引入kyverno）
+2. cloud模块 - 对接aliyun/huaweiyun
+3. 多集群开源
 
 #### 组织背景🌈
 
@@ -26,13 +23,13 @@
 #### 使用规范👩‍💻
 
 1. **所有的bug和问题都填写到[issue](https://github.com/sealyun-market/issues/issues)中方便追踪**
-2. sealyun-market仓库主要用来说明整体规划
-3. apiserver为后端
-4. front-home为前端
-5. webhook主要用来做CI
-6. upgrade主要项目升级
-7. containerd是编译arm的containerd
-8. sealyun-test自动化测试
+2. **客户问题记录 [QA	](https://github.com/sealyun-market/QA/issues)**
+3. **工作内容记录 [doc](https://github.com/sealyun-market/sealyun-market/issues)**
+4. apiserver为后端
+5. front-home为前端
+6. webhook主要用来做CI
+7. upgrade主要项目升级
+8. containerd是编译arm的containerd
 9. marketctl主要针对sealyun的openApi做操作的
 
 #### 其他信息🍿
@@ -40,11 +37,9 @@
 
 1. 测试环境 https://market.cuisongliu.com  数据库 mysql 
 2. 生产环境 https://www.sealyun.com
-3. 预计10.7之后要上线的功能
-	1. 用户管理（修改用户角色（普通、管理员、文档管理员））
-	2. 管理员管理产品、产品类型、产品版本
-	3. 支付模块（用户可自行查看支付状态并同步，管理员查看所有的订单并同步说有的订单状态、可删除无用订单） 支付的稳定性优先开发
-	4. 订阅服务模块（服务创建、绑定产品，管理员功能）
+3. 之后要上线的功能
+	1. 账号密码登录
+	2. 订阅服务模块（服务创建、绑定产品，管理员功能）
   > 目前有个隐患： 用户下完订单之后修改VIP时间会影响订单状态，这个需要调整数据库，看进度，可延后处理。
 4. 等后期需要修改登录接口要支持其他登录方式  
 
