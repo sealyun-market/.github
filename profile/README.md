@@ -23,14 +23,13 @@
 #### 使用规范👩‍💻
 
 1. **所有的bug和问题都填写到[issue](https://github.com/sealyun-market/issues/issues)中方便追踪**
-2. **客户问题记录 [QA	](https://github.com/sealyun-market/QA/issues)**
-3. **工作内容记录 [doc](https://github.com/sealyun-market/sealyun-market/issues)**
-4. apiserver为后端
-5. front-home为前端
-6. webhook主要用来做CI
-7. upgrade主要项目升级
-8. containerd是编译arm的containerd
-9. marketctl主要针对sealyun的openApi做操作的
+2. **工作内容记录 [doc](https://github.com/sealyun-market/sealyun-market/issues)**
+3. apiserver为后端
+4. front-home为前端
+5. webhook主要用来做CI
+6. upgrade主要项目升级
+7. containerd是编译arm的containerd
+8. marketctl主要针对sealyun的openApi做操作的
 
 #### 其他信息🍿
 
